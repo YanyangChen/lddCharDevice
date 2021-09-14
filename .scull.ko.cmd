@@ -1,0 +1,1 @@
+cmd_/linux_work/driver_scull/scull.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /linux_work/driver_scull/scull.ko /linux_work/driver_scull/scull.o /linux_work/driver_scull/scull.mod.o;  true
