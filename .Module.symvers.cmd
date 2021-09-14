@@ -1,0 +1,1 @@
+cmd_/linux_work/driver_scull/Module.symvers := sed 's/\.ko$$/\.o/' /linux_work/driver_scull/modules.order | scripts/mod/modpost -m -a  -o /linux_work/driver_scull/Module.symvers -e -i Module.symvers   -T -
